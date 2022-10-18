@@ -6,11 +6,11 @@
 
 function setup() {
   createCanvas(100,100);
-  background(196);
+  background(100);
   for(let i = 0; i < 9; i++){
     // 変えるのはここから
     if(i % 2 == 0){
-      strokeWeight(2);
+      strokeWeight(3);
     }
     else{
       strokeWeight(1);
